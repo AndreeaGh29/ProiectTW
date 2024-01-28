@@ -1,0 +1,71 @@
+.professor-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.request-list {
+    margin: 0;
+    padding: 0;
+}
+
+.request-card {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.request-card h2 {
+    margin-top: 0;
+    color: #555;
+}
+
+.request-card p {
+    margin: 5px 0;
+}
+
+.buttons {
+    text-align: right;
+}
+
+.accept-button, .reject-button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.accept-button {
+    background-color: #4CAF50;
+}
+
+.reject-button {
+    background-color: #f44336;
+}
+
+.accept-button:hover, .reject-button:hover {
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .professor-container {
+        margin: 20px;
+    }
+}
